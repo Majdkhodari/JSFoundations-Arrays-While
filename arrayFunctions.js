@@ -9,8 +9,16 @@
  * isArrayLengthOdd([1, 2, 3, 4]) -> flase
  */
 function isArrayLengthOdd(numbers) {
-  // Your code here
-}
+
+
+  if (numbers.length % 2 == 1) { return true} 
+  else { return false}
+
+
+    // Your code here
+  }
+
+isArrayLengthOdd ([1, 2, 4, 8])
 
 /**
  * isArrayLengthEven(numbers):
@@ -23,9 +31,15 @@ function isArrayLengthOdd(numbers) {
  * isArrayLengthEven([1, 2, 3, 4]) -> true
  */
 function isArrayLengthEven(numbers) {
+
+ 
+  if (numbers.length % 2 == 1) { return true} 
+  else { return false }
+
   // Your code here
 }
 
+isArrayLengthEven([1, 2, 3])
 /**
  * addLailaToArray(instructors):
  * - receives array `instructors`
@@ -35,6 +49,9 @@ function isArrayLengthEven(numbers) {
  * addLailaToArray(["Mshary", "Hasan"]) -> ["Mshary", "Hasan", "Laila"]
  */
 function addLailaToArray(instructors) {
+
+  instructors.push("Laila")
+  return instructors
   // Your code here
 }
 
@@ -47,8 +64,13 @@ function addLailaToArray(instructors) {
  * eliminateTeam(["Brazil", "Germany", "Italy"]) -> "Italy"
  */
 function eliminateTeam(teams) {
+
+  return teams.pop()
+
   // Your code here
 }
+
+eliminateTeam()
 
 /**
  * secondHalfOfArrayIfItIsEven(fruits):
@@ -79,6 +101,9 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  * - Use string method .slice()
  */
 function youGottaCalmDown(shout) {
+
+
+
   // Your code here
 }
 
